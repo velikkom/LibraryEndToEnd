@@ -14,6 +14,7 @@ public class Environment {
             FileInputStream input = new FileInputStream(path);
 
             properties = new Properties();
+
             properties.load(input);
 
             // LOAD ENVIRONMENT SPECIFIC PROPERTIES
